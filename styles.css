@@ -67,12 +67,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
 }
 
 .card {
   width: 25rem;
   background-color: #fff;
   border-radius: 1rem;
+  margin-bottom: 1rem;
 }
 
 .hero {
@@ -176,6 +178,12 @@ body {
 
 .cancel-button:hover {
   color: var(--color-desaturated-blue-hover);
+}
+
+.attribution a {
+  text-decoration: none;
+  color: var(--color-bright-blue);
+  font-weight: 700;
 }
 
 /* media query */
